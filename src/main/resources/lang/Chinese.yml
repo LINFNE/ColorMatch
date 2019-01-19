@@ -1,0 +1,148 @@
+## Chinese translation by PAMA（QQ：1249072779）
+##中文翻译作者：PAMA
+general:
+  permission_message: "&c您没有执行此操作的权限"
+  arena_running: "&c竞技场已经在运行"
+  arena_not_running: "&e竞技场没有运行！"
+  player_not_exist: "&c玩家不在竞技场"
+  arena_doesnt_exist: "&c竞技场不存在"
+  arena_doesnt_exist2: "&c竞技场 %0 不存在"
+  arena_already_exist: "&c竞技场已经存在"
+  arena_already_disabled: "&e竞技场已禁用"
+  arena_already_enabled: "&e竞技场已启用"
+  arena_in_setup_mode: "&c此竞技场当前处于设置模式"
+  game_full: "&c竞技场完整"
+  create_sign: "&a已成功创建木牌"
+  load_all: "&a正在加载竞技场…正在加载竞技场…"
+  disable_all: "正在禁用所有竞技场…"
+  load_arena: "&7%0 &a- 加载成功"
+  disable_arena: "停用 %0..."
+  no_arenas: "&a找不到竞技场"
+  available_arenas: "&7提供配色方案:"
+  waiting_players: "&e等待玩家 &7(%0/%1)"
+
+game:
+  join: "&7加入竞技场 &e%0&7..."
+  join_spectator: "&7作为旁观者加入…"
+  join_others: "&e%0&7 已经加入 (&9%1&e / &9%2&7)"
+  leave: "&7离开竞技场…"
+  leave_others: "&e%0&7 已经离开 (&9%1&e / &9%2&7)"
+  start_game: "&b游戏开始了！"
+  death: "&e%0 &7已经被淘汰了！ &b%1 &7玩家离开"
+  send_to_main_world: "&2返回大厅…"
+  starting: "&a游戏开始于 %0 秒"
+  kick_from_game: "&9你被踢出比赛 %0"
+  commands: "&c此处不能使用命令"
+  already: "&c你已经在比赛了"
+  #reward for win
+  reward: "&a你赢得了 %0 金币!"
+  #end game message
+  end_game: "§6§l---------------------§r\n§5竞技场 %0 结束\n§4赢家:\n§a1. %1\n§e2. %2\n§c3. %3\n§6§l---------------------"
+###################
+#   命令信息        #
+###################
+commands:
+  help:
+    help: "&7使用 &e/cm help 显示帮助"
+    join: "&e7使用 &e/cm join &a<竞技场> 加入游戏"
+    enable: "&e7使用 &e/cm enable &a<竞技场> 完成设置游戏"
+    disable: "&e7使用 &e/cm disable &a<竞技场> 停用游戏"
+    leave: "&7使用 &e/cm leave &a<竞技场> 离开游戏"
+    start: "&7使用 &e/cm start &a<竞技场> 开始游戏"
+    stop: "&7使用 &e/cm stop &a<竞技场> 暂停游戏"
+    set: "&7使用 &e/cm configure &a<竞技场> 设置游戏"
+    create: "&7使用 &e/cm create &a<竞技场> 创建游戏"
+    setlobby_player: "&7使用 &e/cm setlobby 设置大厅"
+    setlobby: "&7使用 &e/cm setlobby &a<x> <y> <z> [world] 设置大厅坐标"
+    build: "&7使用 &e/cm build &a<竞技场> [block] 创建竞技场"
+    stats: "&7使用 &e/cm stats [player] 开始游戏"
+    list: "&7使用 &e/cm list [world name] 显示竞技场列表"
+
+  success:
+    disable: "&a停止 &e%0&a..."
+    enable: "&a完成竞技场 &e%0&a..."
+    start: "&a游戏已经开始"
+    stop: "&a竞技场已经暂停"
+    set: "&e你现在正在设置 &9%0"
+    stats: "&d>> &7显示 &e颜色竞赛 &7玩家统计数据 &e%0"
+    create: "&e竞技赛成功建立"
+    build: "&a正在建造 &e%0&a..."
+    setlobby: "&a大厅坐标成功更新"
+
+  failure:
+    enable: "&c竞技场配置不正确或启用时出错"
+    run_command_ingame: "&e你只能在游戏中使用这个命令"
+    unknown_world: "&c世界 %0 不存在"
+    invalid_block: "&c方块 %0 不存在"
+    list_empty: "&c没有任何加载的竞技场"
+    build_enable: "&c你必须先开启竞技场"
+    stats_player: "&c没有任何已保存的玩家统计数据 '%0'"
+    stats_disabled: "&c统计信息被禁用"
+#####################
+#设置模式消息#
+#####################
+setupmode:
+  help:
+    game_type: "&7使用: &etype &b[classic/furious/stoned/blind]设置类型"
+    floor_type: "&7使用: &efloortype &b[wool/clay/carpet/glass]设置地板类型"
+    colortime: "&7使用: &ecolortime &b<seconds>设置颜色变换时间"
+    radius: "&7使用: &efloorradius &b<radius>设置半径"
+    aggressive: "&7使用 &eaggressive &b<true/false>设置pvp"
+    help: "&7帮助菜单 &a%0/%1:"
+    help_messages:
+
+
+  failure:
+    number_error: "&c请输入有效号码"
+    floor_type_error: "&c请输入有效的楼层类型"
+    arena_type_error: "&c请输入有效的竞技场类型"
+    missing_arguments: "&e竞技场配置不正确！ 缺少一些参数(&7 %0 &e)\n&e你想保存竞技场吗? <yes/no>"
+    unknown_command: "&c未知的命令。 输入“帮助”以获取帮助"
+
+  enable: "&e你现在正在编辑竞技场 &9%0"
+  continue: "&e您可以继续配置竞技场"
+  continue_join: "&e您正在配置竞技场 %0"
+  save: "&a竞技场成功保存。 键入&e/cm启用 %0 &a  加载竞技场"
+  joinsign: "&a将木牌坐标位置设置为 &eX: &9%0 &eY: &9%1 &eZ: &9%2"
+  startpos: "&a将开始游戏坐标位置设置为 &eX: &9%0 &eY: &9%1 &eZ: &9%2"
+  floorpos: "&a将地板坐标设置为 &eX: &9%0 &eY: &9%1 &eZ: &9%2"
+  spectatorspawn: "&a将旁观者生成的坐标设置为 &eX: &9%0 &eY: &9%1 &eZ: &9%2"
+  mainlobby: "&a主大厅的坐标已经更新"
+  game_type: "&a竞技场类型已成功更新"
+  floor_type: "&a地板材料已成功更新"
+  colortime: "&a颜色更改间隔已成功更新"
+  radius: "&a设置楼层半径为 &e%0"
+  aggressive: "&a积极模式已更新"
+
+##################################
+#ColorMatch帮助命令消息#
+##################################
+help:
+  main: "&7显示ColorMatch帮助页面 %0/%1:"
+  lobby: "\n- &2/cm lobby &l&5»&r&f 传送至大厅"
+  leave: "\n- &2/cm leave &l&5»&r&f 离开竞技场"
+  join: "\n- &2/cm join &b<竞技场> &l&5»&r&f 加入竞技场"
+  start: "\n- &2/cm start &b[竞技场] &l&5»&r&f 强行开始竞技场"
+  stop: "\n- &2/cm stop &b[竞技场] &l&5»&r&f 强行停止竞技场"
+  kick: "\n- &2/cm kick &b[竞技场] [玩家] [原因] &l&5»&r&f 将玩家听出竞技场"
+  set: "\n- &2/cm configure &b<竞技场> &l&5»&r&f 设置或修改竞技场"
+  delete: "\n- &2/cm delete &b[竞技场] &l&5»&r&f 删除现有的竞技场"
+  create: "\n- &2/cm create &b<竞技场> &l&5»&r&f 创造新的竞技场"
+  build: "\n- &2/cm build &b<竞技场> [方块] &l&5»&r&f 建立一个简单的竞技场"
+
+stats:
+  own: "&7显示您的ColorMatch统计信息："
+  another: "&7正在显示 &9%0's&7 ColorMatch 统计信息:"
+  wins: "&e胜者: &7%0"
+  deaths: "&e生命: &7%0"
+  rounds: "&e回合: &7%0"
+
+arena_builder:
+  success: "&a竞技场成功生成 &7(%0 方块，使用 %1 秒)"
+  failure: "&c无法生成。 楼层 Y坐标 太低了"
+
+custom_words:
+  arena: "竞技场"
+  use: "使用"
+  world: "世界"
+  player: "玩家"
